@@ -1,10 +1,11 @@
+// ================typing animation----------------->
 var typed = new Typed(".typing",{
     strings:["", "Web Designer", "Web Developer", "Graphic designer", "Java Developer"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
 })
-
+// ================  Aside----------------->
 const nav = document.querySelector(".nav"),
   navList = nav.querySelectorAll("li"),
   totalNavList = navList.length,
